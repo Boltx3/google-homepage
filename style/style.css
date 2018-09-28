@@ -8,9 +8,19 @@ ul {
    padding: 0;
 }
 
-li {
-   text-align: center;
-   border-bottom: 1px solid #fff;
+.lnav{
+}
+
+.lnav .ul {
+   list-style-type:none;
+   border-bottom: 1px solid #fff;   
+   margin-right: 70px;
    display: inline;
+}
+
+.rnav{
+}
+
+.rnav ul {
 }
 
