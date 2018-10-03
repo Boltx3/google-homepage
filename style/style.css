@@ -1,12 +1,98 @@
 body {
    background-color: white;
+   font-family: arial, sans-serif;
 }
 
-ul { 
-i
+div.topnav {
+   background-color: white;
+}
+
+ul.navleft {
+   list-style-type: none;
    margin: 0;
-   padding: 0;
+   padding: 5px 50px 5px 10px;
+}
+
+li.navleft{
    float: left;
    display: inline;
+   padding: 5px;   
+}
+
+ul.navright {
+   list-style-type: none;
+   margin: 0px;
+   padding: 0px 10px 5px 50px;
+}
+
+li.navright {
+   float: right;
+   display: inline;
+   padding: 5px;
+}
+
+div.image {
+   padding: 50px;
+}
+
+input.searchcenter {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 25%;
+}
+
+img.center {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+p.center {
+   text-align: center;
+}
+
+.button {
+   margin-left: auto;
+   margin-right: auto;
+}
+
+div.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    color: white;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    border-top: 1px solid #e4e4e4;
+    font-size: 10pt;
+}
+
+ul.leftfooter {
+   list-style-type: none;
+   margin: 0;
+   padding: 10px 0px 0px 10px;
+}
+
+li.leftfooter {
+   float: left;
+   display: inline;
+   padding: 5px;
+}
+
+ul.rightfooter {
+   list-style-type: none;
+   margin: 0;
+   padding: 0px 10px 0px 0px;
+}
+
+li.rightfooter {
+   float: right;
+   margin: 0;
+   display: inline;
+   padding: 5px;
 }
 
