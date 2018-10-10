@@ -3,8 +3,19 @@ body {
    font-family: arial, sans-serif;
 }
 
+a:link  {
+   color: #a8a8a8;
+   text-decoration: none;
+}
+
+a:hover, a:active {
+   text-decoration: underline;
+}
+
+
 div.topnav {
    background-color: white;
+   padding: 20px;
 }
 
 ul.navleft {
@@ -19,6 +30,7 @@ li.navleft{
    padding: 5px;   
 }
 
+
 ul.navright {
    list-style-type: none;
    margin: 0px;
@@ -32,7 +44,7 @@ li.navright {
 }
 
 div.image {
-   padding: 50px;
+   padding: 100px;
 }
 
 input.searchcenter {
@@ -43,6 +55,16 @@ input.searchcenter {
 }
 
 img.center {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+div.btn {
+   text-align:center;
+}
+
+ul.btn {
    display: block;
    margin-left: auto;
    margin-right: auto;
